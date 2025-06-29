@@ -55,7 +55,7 @@ jobs:
       id: get_prod
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        PROJECT_ID: prj_bmXMFoiWeKfiSA78LGUgFnvWnLwg
       run: |
         RESPONSE=$(curl -s \
           -H "Authorization: Bearer $VERCEL_TOKEN" \
